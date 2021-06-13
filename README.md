@@ -1,7 +1,31 @@
-# Electron React TypeScript Boilerplate
+# Electron React TypeScript Caculator
 
-Minimalistic boilerplate code to quickly bootstrap a project with Electron and React.
+A simple calculator made with Electron, React and TypeScript
 
-# Steps:
+# Steps to run:
 
--   Just clone the repo and start working!
+-   Clone the repo
+
+```bash
+git clone https://github.com/k4u5h4L/electron-calculator.git && cd electron-calculator
+```
+
+-   Install dependencies
+
+```
+yarn install
+```
+
+-   Run the development server
+
+```
+yarn start
+```
+
+Now a window will open, and you have fast reload too, thanks to electron-forge.
+
+-   To make a distributable for your OS, run
+
+```
+yarn run make
+```
